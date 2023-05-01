@@ -1,0 +1,132 @@
+20:49:51 **** Build of configuration Debug for project ADC_driver_LCD_Poteniometer ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_readChannel':
+../adc.c:223: error: invalid operands to binary & (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:228: error: invalid operands to binary | (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:243: error: incompatible types in assignment
+../adc.c:244: error: invalid operands to binary << (have 'Adc_ADCH_Type' and 'int')
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:51:18 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Poteniometer ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_readChannel':
+../adc.c:243: error: incompatible types in assignment
+../adc.c:244: error: invalid operands to binary << (have 'Adc_ADCH_Type' and 'int')
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:51:59 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Poteniometer ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_init':
+../adc.c:37: error: request for member 'Bits' in something not a structure or union
+../adc.c:49: error: request for member 'Bits' in something not a structure or union
+../adc.c:49: error: expected identifier before numeric constant
+../adc.c:60: error: request for member 'Bits' in something not a structure or union
+../adc.c:60: error: expected identifier before numeric constant
+../adc.c:146: error: request for member 'Byte' in something not a structure or union
+../adc.c:149: error: request for member 'Byte' in something not a structure or union
+../adc.c:152: error: request for member 'Byte' in something not a structure or union
+../adc.c:157: error: request for member 'Byte' in something not a structure or union
+../adc.c:169: error: request for member 'Bits' in something not a structure or union
+../adc.c: In function 'ADC_readChannel':
+../adc.c:224: error: request for member 'Byte' in something not a structure or union
+../adc.c:229: error: request for member 'Byte' in something not a structure or union
+../adc.c:229: error: request for member 'Byte' in something not a structure or union
+../adc.c:233: error: request for member 'Bits' in something not a structure or union
+../adc.c:233: error: expected identifier before numeric constant
+../adc.c:235: error: request for member 'Bits' in something not a structure or union
+../adc.c:235: error: expected identifier before numeric constant
+../adc.c:238: error: request for member 'Bits' in something not a structure or union
+../adc.c:238: error: expected identifier before numeric constant
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:52:24 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Poteniometer ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_readChannel':
+../adc.c:244: error: incompatible types in assignment
+../adc.c:245: error: invalid operands to binary << (have 'Adc_ADCH_Type' and 'int')
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:53:27 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Poteniometer ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:234: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:247: warning: implicit declaration of function 'itoa'
+../lcd.c:249: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building file: ../potentiometer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"potentiometer.d" -MT"potentiometer.o" -c -o "potentiometer.o" "../potentiometer.c"
+../potentiometer.c: In function 'main':
+../potentiometer.c:17: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../potentiometer.c
+ 
+Building target: ADC_driver_LCD_Poteniometer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Poteniometer.map -mmcu=atmega32 -o "ADC_driver_LCD_Poteniometer.elf"  ./adc.o ./gpio.o ./lcd.o ./potentiometer.o   
+Finished building target: ADC_driver_LCD_Poteniometer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Poteniometer.elf  >"ADC_driver_LCD_Poteniometer.lss"
+Finished building: ADC_driver_LCD_Poteniometer.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Poteniometer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10442 bytes (31.9% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:53:32 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Poteniometer ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Poteniometer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10442 bytes (31.9% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
